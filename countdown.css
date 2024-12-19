@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("5818397.jpg"); /* ใส่เส้นทางไฟล์ภาพ */
+    background-size: cover; /* ปรับภาพให้เต็มจอ */
+    background-position: center; /* จัดให้อยู่กึ่งกลาง */
+    color: white;
+    text-align: center;
+}
+
+#countdown {
+    font-size: 14em; /* ขนาดตัวอักษร */
+    text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9); /* เงาตัวอักษร */
+    -webkit-text-stroke: 5px black; /* ขอบตัวอักษรสีดำ (หนา 3px) */
+    color: #FF0000; /* สีตัวอักษรหลัก */
+    font-family: "Faculty Glyphic", serif, Arial, sans-serif; /* ฟอนต์ */
+}
+
+
+@font-face {
+    font-family: "Faculty Glyphic";
+    src: url("path/to/faculty-glyphic.woff2") format("woff2"),
+         url("path/to/faculty-glyphic.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
